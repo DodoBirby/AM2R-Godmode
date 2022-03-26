@@ -52,7 +52,3 @@ if ((global.currentweapon == 1 && global.missiles > 0) || (global.currentweapon 
         }
     }
 }
-if (global.currentweapon == 2 && global.smissiles == 0)
-    global.currentweapon = 1
-if (global.currentweapon == 1 && global.missiles == 0)
-    global.currentweapon = 0
